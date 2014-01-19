@@ -1,0 +1,23 @@
+{
+    "name": "ceikermann/advcache",
+    "type": "library",
+    "description": "Advance cache library for doctrine/cache",
+    "version": "1.0.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Christian Eikermann",
+            "email": "christian@chrisdev.de"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "doctrine/cache": "1.3.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*"
+    },
+    "autoload": {
+        "psr-0": { "AdvCache": "src/" }
+    }
+}
