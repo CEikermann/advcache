@@ -1,4 +1,4 @@
-Advance Cache [![Build Status](https://secure.travis-ci.org/ceikermann/advcache.png)](http://travis-ci.org/ceikermann/advcache)
+Advance Cache [![Build Status](https://travis-ci.org/CEikermann/advcache.png?branch=master)](https://travis-ci.org/CEikermann/advcache)
 ===============
 AdvCache is a extension of the Doctrine\Cache component. AdvCache implements also the Cache interface from Doctrine, but give you some additional flexible methods like fetchOrCall or cache tagging to have a better cache handling:
 
