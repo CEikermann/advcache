@@ -60,7 +60,7 @@ In this case it will delete the cache of `somecacheid1` and `somecacheid2`, beca
 Assign tags to cache at save method
 ----------------------------------------------------
 ```php
-$advcache->save('somecacheid1', $someCachedData, 0, array('tag1', 'tag2));
+$advcache->save('somecacheid1', $someCachedData, 0, array('tag1', 'tag2'));
 ```
 
 It is possible to assign the cache directly with tags in save method
