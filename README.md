@@ -52,7 +52,7 @@ In this case the tag1 is assign to two cache ids (`somecacheid1` and `somecachei
 Delete by tag
 ----------------------------------------------------
 ```php
-$advcache->deleteByCache('tag1');
+$advcache->deleteByTag('tag1');
 ```
 
 In this case it will delete the cache of `somecacheid1` and `somecacheid2`, because both are assigned to `tag1`
