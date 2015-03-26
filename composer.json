@@ -2,7 +2,7 @@
     "name": "ceikermann/advcache",
     "type": "library",
     "description": "Advance cache library for doctrine/cache",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "license": "MIT",
     "authors": [
         {
