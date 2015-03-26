@@ -1,4 +1,4 @@
-Advance Cache [![Build Status](https://secure.travis-ci.org/ceikermann/advcache.png)](http://travis-ci.org/ceikermann/advcache)
+Advance Cache [![Build Status](https://travis-ci.org/CEikermann/advcache.png?branch=master)](https://travis-ci.org/CEikermann/advcache)
 ===============
 AdvCache is a extension of the Doctrine\Cache component. AdvCache implements also the Cache interface from Doctrine, but give you some additional flexible methods like fetchOrCall or cache tagging to have a better cache handling:
 
@@ -52,7 +52,7 @@ In this case the tag1 is assign to two cache ids (`somecacheid1` and `somecachei
 Delete by tag
 ----------------------------------------------------
 ```php
-$advcache->deleteByCache('tag1');
+$advcache->deleteByTag('tag1');
 ```
 
 In this case it will delete the cache of `somecacheid1` and `somecacheid2`, because both are assigned to `tag1`
@@ -60,7 +60,7 @@ In this case it will delete the cache of `somecacheid1` and `somecacheid2`, beca
 Assign tags to cache at save method
 ----------------------------------------------------
 ```php
-$advcache->save('somecacheid1', $someCachedData, 0, array('tag1', 'tag2));
+$advcache->save('somecacheid1', $someCachedData, 0, array('tag1', 'tag2'));
 ```
 
 It is possible to assign the cache directly with tags in save method
